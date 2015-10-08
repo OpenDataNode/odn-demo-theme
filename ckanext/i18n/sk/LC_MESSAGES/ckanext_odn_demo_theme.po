@@ -1,0 +1,190 @@
+# Slovak translations for ckanext-odn-demo-theme.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the ckanext-odn-demo-theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-odn-demo-theme 1.0.3-SNAPSHOT\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-09-16 14:44+0200\n"
+"PO-Revision-Date: 2015-06-12 14:10+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ckanext/extras/plugin.py:15
+msgid "Creator"
+msgstr "Tvorca"
+
+#: ckanext/extras/plugin.py:16
+msgid "Dataset"
+msgstr "Sada dát"
+
+#: ckanext/extras/plugin.py:17
+msgid "Modified"
+msgstr "Zmenený"
+
+#: ckanext/extras/plugin.py:18
+msgid "Source"
+msgstr "Zdroj"
+
+#: ckanext/extras/plugin.py:19
+msgid "Example resource"
+msgstr "Príklad zdroja"
+
+#: ckanext/extras/plugin.py:20
+msgid "SPARQL resource"
+msgstr "SPARQL zdroj"
+
+#: ckanext/odn_demo_theme/templates/footer.html:8
+msgid "Powered by:"
+msgstr " "
+
+#: ckanext/odn_demo_theme/templates/header.html:5
+#: ckanext/odn_demo_theme/templates/header.html:12
+msgid "Open Data Node"
+msgstr "Open Data Node"
+
+#: ckanext/odn_demo_theme/templates/header.html:25
+#: ckanext/odn_demo_theme/templates/header.html:31
+msgid "Datasets"
+msgstr "Dátové sady"
+
+#: ckanext/odn_demo_theme/templates/header.html:26
+#: ckanext/odn_demo_theme/templates/header.html:32
+msgid "Organizations"
+msgstr "Organizácie"
+
+#: ckanext/odn_demo_theme/templates/header.html:27
+#: ckanext/odn_demo_theme/templates/header.html:33
+msgid "Groups"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/header.html:43
+msgid "Tools"
+msgstr "Nástroje"
+
+#: ckanext/odn_demo_theme/templates/header.html:48
+msgid "User management"
+msgstr "Správa používateľov"
+
+#: ckanext/odn_demo_theme/templates/header.html:51
+msgid "Unified Views"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/home/snippets/intro.html:8
+msgid "Sample title"
+msgstr "Ukážkový názov"
+
+#: ckanext/odn_demo_theme/templates/home/snippets/intro.html:9
+msgid "Sample text"
+msgstr "Ukážkový text"
+
+#: ckanext/odn_demo_theme/templates/home/snippets/search.html:2
+msgid "eg. Gold Prices"
+msgstr "napríklad Ceny zlata"
+
+#: ckanext/odn_demo_theme/templates/home/snippets/search.html:6
+msgid "Search Your Data"
+msgstr "Hľadať vo Vašich dátach"
+
+#: ckanext/odn_demo_theme/templates/home/snippets/search.html:11
+msgid "Search"
+msgstr "Hľadať"
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:5
+msgid "Additional Information"
+msgstr "Doplňujúce informácie"
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:9
+msgid "Field"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:10
+msgid "Value"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:15
+msgid "Last updated"
+msgstr "Naposledy aktualizované"
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:16
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:20
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:24
+msgid "unknown"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:19
+msgid "Created"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:23
+msgid "Format"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/package/resource_read.html:27
+msgid "License"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:7
+msgid "Open ID"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:10
+msgid "Username"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:16
+msgid "Email"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:16
+#: ckanext/odn_demo_theme/templates/user/read_base.html:30
+msgid "This means only you can see this"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:16
+#: ckanext/odn_demo_theme/templates/user/read_base.html:30
+msgid "Private"
+msgstr "Súkromné"
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:17
+msgid "None"
+msgstr "Žiadny"
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:21
+msgid "Member Since"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:25
+msgid "State"
+msgstr ""
+
+#: ckanext/odn_demo_theme/templates/user/read_base.html:30
+msgid "API Key"
+msgstr ""
+
+#: ckanext/odn_demo_theme_ic/templates/header.html:6
+msgid "Sysadmin settings"
+msgstr "Nastavenia systémového administrátora"
+
+#: ckanext/odn_demo_theme_ic/templates/header.html:12
+msgid "View profile"
+msgstr "Prehľad profilu"
+
+#: ckanext/odn_demo_theme_ic/templates/header.html:27
+msgid "Edit settings"
+msgstr "Zmeniť nastavenia"
+
+#: ckanext/odn_demo_theme_ic/templates/header.html:34
+msgid "Log out"
+msgstr "Odhlásiť"
+
+

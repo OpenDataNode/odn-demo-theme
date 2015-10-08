@@ -1,0 +1,20 @@
+{% ckan_extends %}
+{% block footer_content %}
+    <div class="row">
+      <div class="span4 attribution">
+        <div class="subrow"><strong>Open Data Node v{{ g.odn_version }}</strong></div>
+        <div class="subrow space">
+        {% block footer_attribution %}
+          <p><strong>{% trans %}Powered by:{% endtrans %}</strong></p>
+            <a class="odn-footer-logo" href="http://opendatanode.org"></a>
+            <a class="ckan-footer-logo" href="http://ckan.org"></a>
+        {% endblock %}
+        </div>
+        <div class="subrow space">
+        {% block footer_lang %}
+          {% snippet "snippets/language_selector.html" %}
+        {% endblock %}
+        </div>
+      </div>
+{% endblock %}
+

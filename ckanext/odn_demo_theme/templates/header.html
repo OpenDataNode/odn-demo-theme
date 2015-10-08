@@ -1,0 +1,63 @@
+{% ckan_extends %}
+
+{% block header_logo %}
+  {% if g.site_logo %}
+          <a id="sitelogo" class="logo" href="{{ h.url('home') }}"><img src="{{ h.url_for_static(g.site_logo) }}" alt="{{ g.site_title or _('Open Data Node') }}" title="{{ g.site_title or _('Open Data Node') }}" /></a>
+          <div id="sitetitle">
+            <div id="sitetitlestring">{% if g.site_title != '' %}{{ g.site_title }}{% else %}Open Data Node{% endif %}</div>
+          </div>
+  {% else %}
+          <div id="sitetitle">
+            <h1 id="sitetitlestring">
+              <a href="{{ h.url('home') }}">{{ g.site_title or _('Open Data Node') }}</a>
+            </h1>
+          </div>
+          {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
+  {% endif %}
+{% endblock %}
+
+{% block header_site_navigation %}
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            {% block header_site_navigation_tabs %}
+              {% if g.site_about == "" %}
+                {{ h.build_nav_main(
+                  ('search', _('Datasets')),
+                  ('organizations_index', _('Organizations')),
+                  ('group_index', _('Groups'), 'group_create'),
+                ) }}
+              {% else %}
+                {{ h.build_nav_main(
+                  ('search', _('Datasets')),
+                  ('organizations_index', _('Organizations')),
+                  ('group_index', _('Groups'), 'group_create'),
+                  ('about', _('About'))
+                ) }}
+              {% endif %}
+            {% endblock %}
+            <li> <a target="_blank" href="http://www.opendatanode.org"> {{ _('About ODN')}}</a></li>
+            {% if h.get_uv_url() or h.get_user_management_url() %}
+            <li>
+              <div class="dropdown btn-group">
+                <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      <i class="icon-share-alt"></i>
+                      {{ _('Tools') }}
+                      <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  {% if h.get_user_management_url() %}
+                  <li><a target="_blank" href="{{ h.get_user_management_url() }}">{{ _("User management") }}</a></li>
+                  {% endif %}
+                  {% if h.get_uv_url() %}
+                  <li><a target="_blank" href="{{ h.get_uv_url() }}">{{ _("Unified Views") }}</a></li>
+                  {% endif %}
+                </ul>
+              </div>
+            </li>
+            {% endif %}
+          </ul>
+        </nav>
+{% endblock %}
+
+{% block header_site_search %}
+{% endblock %}

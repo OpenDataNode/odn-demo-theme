@@ -1,0 +1,13 @@
+{% set intro = g.site_intro_text %}
+
+<div class="module-content box">
+  <header>
+    {% if intro %}
+      {{ h.render_markdown(intro) }}
+    {% else %}
+    <h1 class="page-heading">{{ _("Sample title") }}</h1>
+    <p>{% trans %}Sample text{% endtrans %}</p>
+    {% endif %}
+  </header>
+</div>
+                                  

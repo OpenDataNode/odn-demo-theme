@@ -1,0 +1,51 @@
+#About Open Data Node
+
+ODN is publication platform for open data supporting whole process of publishing. Our motivation is to provide tool which can make this publication repeatable, automated and easy to use.
+
+## Documentation
+
+Documentation is and will be available here: [https://github.com/OpenDataNode/open-data-node](https://github.com/OpenDataNode/open-data-node)
+
+## Licensing
+
+ODN consists from several modules, each with its own license. But overall, ODN is [free and open-source](https://en.wikipedia.org/wiki/FOSS). For more information please take a look at [https://github.com/OpenDataNode/open-data-node#license](https://github.com/OpenDataNode/open-data-node#license).
+
+## So, what it does?
+
+![ODN Scheme](./base/images/odnscheme.jpg)
+
+Organizations, companies or even individuals wishing to publish Open Data from existing information systems usually face a lot of troubles stemming from where the data currently is:
+
+* Data is usually in internal systems, isolated from the Internet, from the general public, isolated even from the rest of the organization itself and its staff.
+* Data is maintained in complex, heterogeneous environments, using wide variety of formats and employing a lot of different technologies to access it and process it.
+
+This sometimes forces those wishing to publish Open Data either to abandon such plans or to make some compromises, such as publishing only manually, forgetting or not being able to produce timely updates, needed clean-up, etc.
+
+In order to publish Open Data from such systems properly, i.e. using Open formats, in machine readable form and in timely manner, __Open Data Node does following:__
+
+1. __it extracts (harvests) data from internal systems__ using any available interface and method to do that safely, effectively, with low costs,
+
+2. __it processes that data__, performing format conversions, cleansing, anonymization, enrichment, linking, etc. (and as part of that also compiling some metadata about that data)
+
+3. __it stores the results__ (data and metadata too), serving effectively as cache, protecting internal systems from overloading in case of high demand for data from users,
+
+4. __it makes the results available to the general public and businesses__ supporting both common users (with usual office tools on PCs or other devices) and application developers (equipped with powerful software development tools and above average hardware), implementing also automated and efficient distribution of updated data increments and dataset replication (including metadata),
+
+5. __it allows all this to be automated, easy to use and easy to maintain.__
+
+In other words and shortened: __Open Data Node helps publishers__ of Open Data with the complexity of source data and __continuously delivers easy to use and high quality Open Data to the users__.
+
+## And, what it is?
+
+To some degree, __ODN already is__.  Its main component was released recently [see blog post about UnifiedViews](http://www.comsode.eu/index.php/2014/04/unifiedviews-an-etl-framework-for-sustainable-rdf-data-processing/). More about ODN's components will be published in subsequent articles.
+
+As already mentioned, __ODN is software__. So it is not a service. But it can be used to create one.
+
+And not just a software, __ODN is Open Source software__, employing mainly combination of [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html) and [LGPLv3](http://www.gnu.org/licenses/lgpl-3.0.html). Thus you can use it yourself, without paying license fees. You can use it as it is or you can customize it or integrate it with something else. If you are not skilled enough, you can acquire customer support for this. You can buy this support either from COMSODE consortium members (e.g. from [EEA](http://www.eea.sk) Company) or you can buy that support from somebody else, even building local expertise in your own country.
+
+Given that, __ODN can be also seen as integration component__, helping to reliably and safely bridge information systems of public bodies with IT infrastructure of citizens and businesses.
+
+##Is it all-in-one package, silver bullet?##
+After reaching this point, you may think ODN is a wonder tool, doing everything, The Only Right Solution In The World(TM), sort of silver bullet. No, it is not.
+
+For more information visit web of [Comsode project](http://www.comsode.eu/index.php/2014/06/open-data-node-what-it-is-what-it-does-what-is-next/)

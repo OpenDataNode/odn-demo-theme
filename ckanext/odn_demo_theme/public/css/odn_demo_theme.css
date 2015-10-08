@@ -1,0 +1,179 @@
+/* --- SECTION COLORS --- */
+
+a, h1, 
+#sitetitle, 
+.homepage .module-search .module-content .heading,
+.site-footer, .site-footer label, .site-footer small, .footer-links a, #sitetitlestring a {
+  color: #2c3e50;
+}
+.account-masthead .account ul li a {
+  color: #555555;
+}
+.account-masthead .account ul li a:hover {
+  color: white;
+}
+.homepage .module-search .tags {
+  color: #606060; 
+}
+body, .masthead .navigation .nav-pills .dropdown > ul > li > a, .hero, [role="main"], .main, .homepage .module-search .module-content {
+  background-color: white;
+}
+.masthead .navigation .nav-pills li a, 
+.masthead .navigation .nav-pills li.active a, 
+.media-overlay .media-heading, 
+.label[data-format="zip"], 
+.label[data-format*="zip"],
+.btn-primary,
+.masthead .navigation .nav-pills .dropdown > a {
+  background: #2c3e50;
+}
+.homepage .module-search .tags {
+  background-color: #e0e0e0;
+}
+.masthead .navigation .nav-pills li a:hover,.account-masthead .account ul li a:hover, .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] {
+  background-color: #909090;
+}
+.account-masthead, .masthead, .site-footer, .group-list .module-heading { 
+  background-color: #f0e0a0;
+}
+.homepage .module-search .module-content {
+  border-color: white;
+}
+.homepage .module-search .search-giant input { 
+  border-color: #cccccc; 
+}
+/* --- /SECTION COLORS --- */
+
+
+
+
+/* sitetitle */
+#sitelogo { float:left; display: block; }
+#sitetitle { margin-left:16px;float:left;font-weight:bold; }
+#sitetitlestring { margin-top:13px;font-size:23px; }
+#sitetitlestring a { font-size: 23px; font-weight: 700; }
+#sitetitlestring a:hover { text-decoration: none; }
+
+/* navbar */
+.navbar .nav > li > a { padding: 10px; margin-left: 5px; }
+.masthead .navigation, .navbar .nav { margin-right: 0; }
+.account-masthead { padding-top: 5px; }
+.account-masthead .account ul li a { padding-left: 5px; padding-right: 5px; margin-left: 5px; }
+.masthead .nav-collapse { padding-top: 5px; }
+.masthead { padding-bottom: 7px; }
+
+/* pipeline */
+#radio1 { top: auto; }
+.dataset-content .btn-group { top: -8px; }
+
+div.module-content header a.rlink { text-decoration: none; }
+div.module-content header a.rlink:hover { text-decoration: underline; }
+div.module-content section a:hover { text-decoration: none; }
+div.module-content header a { text-decoration: underline; }
+div.module-content header a:hover { text-decoration: none; }
+
+.row{margin-left:auto;}
+div.wrapper h1.page-heading { margin-top: 10px; }
+article div.content_action a.btn { margin-top: 8px; }
+
+masthead, .hero { background-image: none; }
+body, .account-masthead, .masthead, [role="main"] { background-image: none; }
+[class*="span"] { margin-left:0; }
+.box{border:none;box-shadow:none;border-radius:none;}
+.nav-pills > li > a { padding-left: 25px; padding-right: 25px; }
+
+.masthead .site-search input { width: 250px; }
+.masthead .content { top:0; }
+#slogan { padding-top:7px; clear:both;}
+.account-masthead .account ul li { border-left: 0;  }
+.account-masthead .account ul li a { font-size:11px; }
+
+.masthead .navigation .nav-pills .dropdown {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	line-height: 34px;
+}
+
+.masthead .navigation .nav-pills .dropdown > a {
+	line-height: 24px;
+}
+
+div.select2-container.lang-container { margin-top: 5px; }
+div.flash-messages { margin-top:10px; }
+
+h1 { font-size: 20px; }
+.context-info h1.heading { margin-top: 12px; }
+
+h1, div.notes p, div.dataset-content div { word-wrap: break-word; }
+
+.search-form .search-input.search-giant input { font-size: 16px; padding: 10px; }
+.homepage [role="main"] { padding-bottom: 0; background-image: none; }
+
+.homepage .module-search .module-content { border: 1px solid; }
+.homepage .module-search .tags { padding: 5px; padding-left: 15px; }
+
+.homepage .module-search .tags h3 { font-size: 12px; line-height:inherit; padding: 0; margin: 0; }
+.media-overlay .media-heading { padding: 5px;}
+h3.dataset-heading { line-height: inherit; }
+
+.group-list .module-heading { padding: 0; }
+.group-list .module-heading h3 { margin-top: 10px; }
+.group-list .dataset-content  { min-height: 0; }
+.group-list .dataset-content { float: left; }
+.dataset-resources { margin-top: 0; }
+.label[data-format="zip"], .label[data-format*="zip"] { margin-right:10px; }
+h3.dataset-heading, h3.media-heading { font-size: 14px; }
+
+.module-image { height: auto; line-height:inherit; margin-right:0; }
+.module-image img { max-height: auto; padding-top: 3px; padding-bottom: 2px; }
+
+.homepage.layout-1 .row1 .col2 { bottom: auto; }
+.module-content:first-child { margin-top: 0; padding-top:0; }
+
+/* search box */
+.homepage .module-search .module-content .heading { line-height: inherit; }
+
+/* horny toolbar - lavy a pravy padding */
+hgroup.header-image { margin-left: 5px; }
+
+/* footer */
+.site-footer { min-height: 110px; background-image: none; }
+.attribution .odn-footer-logo { background: url("/base/images/odn-logo-footer.png") no-repeat; width:21px; height:21px; display: block; float: left; margin-left: 16px; }
+.attribution .ckan-footer-logo { background: url("/base/images/ckan-logo-footer.png") no-repeat; width:21px; height: 21px; display: block; margin-top: 0; margin-left: 30px;} 
+div.subrow { float: left; }
+div.subrow.space { margin-left: 60px; } 
+
+.footer-links ul { width: auto; margin-left:0; float: left; }
+.footer-links { width: 500px; }
+.attribution { width: auto; margin-left: 0; }
+.site-footer form { margin: 0; }
+.site-footer .container { padding-top: 7px; }
+
+/* simple search - title */
+#searchyourdata { text-align: center; font-size: 20px;}
+#simplesearchform { border: 0; }
+.homepage .module-search .search-giant input { border-width: 3px; box-shadow: none;}
+
+/* dataset - search */
+.search-input.control-group.search-giant { margin-top: 15px; }
+.search-form { padding-bottom: 10px; }
+
+/* dataset - new */
+ol.stages { margin: 10px 0 20px; }
+
+/* dataset - buttons */ 
+.page_primary_action { margin-top: 15px; margin-bottom: 15px; }
+
+[role=main] {
+  min-height: 140px;
+}
+
+
+/* Data API help */
+#collapse-endpoints > div > table { table-layout: fixed; width: 100%; }
+#collapse-endpoints > div > table th { width: 25%; }
+
+.masthead { padding-bottom: 5px; border-bottom: 0; }
+.account-masthead { max-height: 24px; min-height: 24px; }
+.account-masthead .account ul li a { line-height: 23px; }
+.masthead .navigation .nav-pills .dropdown > a { margin-left: 5px; }

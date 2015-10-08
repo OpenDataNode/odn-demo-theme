@@ -1,0 +1,48 @@
+.account-masthead, .masthead, .site-footer, .group-list .module-heading {
+  background-color: #f0e08f;
+}
+
+.page-header { 
+  background-color: #f0e08f;
+}
+
+.nav .dropdown-toggle .caret {
+  border-bottom-color: white;
+  border-top-color: white;
+}
+
+.wrapper { 
+  border: 1px solid #f0e08f;
+  box-shadow: 0 0 0 4px #f0e08f;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus { 
+  border-color: #e0d090 #e0d090 transparent;
+}
+
+.module-heading {
+  background-color: #f0e08f;
+}
+
+.masthead .navigation .nav-pills li a, .masthead .navigation .nav-pills li.active a, .media-overlay .media-heading, .label[data-format="zip"], .label[data-format*="zip"], .btn-primary, .masthead .navigation .nav-pills .dropdown > a {
+  background-color: #bf7f30;
+}
+
+.btn-success {
+  background: #bf7f30;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled], .masthead .navigation .nav-pills li a:hover, .account-masthead .account ul li a:hover, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background: #9f5f10;
+}
+
+.alert-info {
+  color: #716b53;
+  border-color: #d1cbb3;
+  background-color: #f1ebd3;
+}
+
+.alert-info a {
+  font-weight: bold;
+  color: #514b33;
+}

@@ -1,0 +1,20 @@
+{% ckan_extends %}
+
+{% block extras %}
+  {% for extra in h.sorted_extras(pkg_dict.extras) %}
+    {% set key, value = extra %}
+    {% if value %}
+    <tr rel="dc:relation" resource="_:extra{{ i }}">
+      <th scope="row" class="dataset-label" property="rdfs:label">{{ h.get_label(key) }}</th>
+      <td class="dataset-details" property="rdf:value">
+      {% if value.startswith('http') %}
+      {{ h.link_to(value, value, target='_blank') }}
+      {% else %}
+      {{ value }}
+      {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+{% endblock %}
+
