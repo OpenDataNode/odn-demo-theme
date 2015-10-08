@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.2.1-SNAPSHOT'
+version = '1.0.0-SNAPSHOT'
 
 setup(
     name='ckanext-odn-demo-theme',
