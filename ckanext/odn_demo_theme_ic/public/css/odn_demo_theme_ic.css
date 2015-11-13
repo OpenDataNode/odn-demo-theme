@@ -46,3 +46,7 @@
   font-weight: bold;
   color: #514b33;
 }
+
+.masthead .navigation .nav-pills .dropdown > ul > li > a:hover {
+   background: #005d7a;
+}
